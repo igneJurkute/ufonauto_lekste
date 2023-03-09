@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFO</title>
 </head>
-<body style="background-color: white;">
-    <main style="display: inline-block; width: 50%; margin-left: 25%; margin-top: 10%">
-        <div style="float: left; width: 30%; margin-top: 50px;">
-            <h1 style="font-size: 70px; color: blue;">404</h1>
-            <p style="font-size: 30px; color: darkslategrey; text-transform: uppercase;">Page not found</p>
-            <a href="" style="">Go to home</a>
+<body>
+    <main style="display: inline-block; width: 70%; margin-left: 15%; margin-top: 5%">
+        <div style="float: left; width: 35%; margin-top: 150px; padding-left: 2%;">
+            <h1 style="font-size: 70px; color: blue; margin: 0; font-family:Verdana, Geneva, Tahoma, sans-serif;">404</h1>
+            <p style="font-size: 30px; color: darkslategrey; text-transform: uppercase; margin: 0; font-weight: bold; font-family:Verdana, Geneva, Tahoma, sans-serif;">Page not found</p>
+            <a href="" style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: none; color: blue; border: 2px solid blue; padding: 10px; padding-left: 30px; padding-right: 30px; display: inline-block; border-radius: 20px; margin-top: 15px;">Go to home</a>
         </div>
-        <img  style="float: right; width: 60%; margin-left: 10%;"; src="./ufonautas.jpg" alt="ufonautas">
+        <img  style="float: left; width: 55%; margin-left: 8%;"; src="./ufonautas.png" alt="ufonautas">
     </main>
 </body>
 </html>
@@ -30,13 +30,24 @@
     fono spalva
     backgroud-color: white;
 
-    Tarpusavio elementu atstumimas:
-    margin: 10%; atstumimas visomis kryptimis.
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    KRASTINES:
+    border: 1px solid red;
 
+
+    Tarpusavio elementu atstumimas:
+    margin: 10%;                    visomis kryptimis aplink
+    margin-top: 10%;                atsistumimas nuo virsaus
+    margin-right: 10%;              atsistumimas is desines
+    margin-bottom: 10%;             atsistumimas nuo apacios
+    margin-left: 10%;               atsistumimas is kaires
+
+    Atsistumas tarp elemento krasto ir jo turinio:
+    padding: 10%;                    visomis kryptimis aplink
+    padding-top: 10%;                atsistumimas nuo virsaus
+    padding-right: 10%;              atsistumimas is desines
+    padding-bottom: 10%;             atsistumimas nuo apacios
+    padding-left: 10%;               atsistumimas is kaires
+    
     Tekstas:
     font-size: 40px;
     font-weight: bold;
@@ -44,9 +55,10 @@
     text-transform: uppercase;
 
     Elementu atvaizdavimo budas:
-    display: block;
-    display: inline;
-    display: inline-block
+    display: block;                 default - is virsaus i apacia
+    display: inline;                elgiasi, kaip "zodziai tekste"
+    display: inline-block;          elementas platus tiek kiek jame yra turinio, bet ne platesni nei tevas
+
 
     Priverstinis elementu sustumimas:
     float: right;
